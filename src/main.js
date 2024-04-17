@@ -1,6 +1,11 @@
+import { router } from './router/index.js'
+
 import './assets/main.css'
+import './assets/normalize.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+app.use(router)
+app.mount('#app')
