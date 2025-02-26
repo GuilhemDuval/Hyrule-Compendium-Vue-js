@@ -50,5 +50,4 @@ footer>ul {
     justify-content: space-between;
     list-style-type: none;
 }
-
 </style>

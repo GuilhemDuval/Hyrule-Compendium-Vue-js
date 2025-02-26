@@ -71,13 +71,14 @@ export default {
 }
 
 .favorite {
-  color: rgb(255,50,50);
+  color: rgb(255, 50, 50);
   background-image: -webkit-linear-gradient(top, #d8dee5, #71a8de);
   background-image: -moz-linear-gradient(top, #d8dee5, #71a8de);
   background-image: -ms-linear-gradient(top, #d8dee5, #71a8de);
   background-image: -o-linear-gradient(top, #d8dee5, #71a8de);
   background-image: linear-gradient(top, #d8dee5, #71a8de);
 }
+
 button {
   background: #71a8de;
   background-image: -webkit-linear-gradient(top, #71a8de, #275880);

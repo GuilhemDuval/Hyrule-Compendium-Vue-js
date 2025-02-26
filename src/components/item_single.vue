@@ -20,7 +20,8 @@
           {{ drop }}<span v-if="index !== singleData.drops.length - 1">, </span>
         </span></li>
       <li v-if="singleData && singleData.hearts_recovered">Hearts Recovered: {{ singleData.hearts_recovered }}</li>
-      <li v-if="singleData && singleData.cooking_effect" class="capitalize" >Cooking Effect: {{ singleData.cooking_effect }}</li>
+      <li v-if="singleData && singleData.cooking_effect" class="capitalize">Cooking Effect: {{ singleData.cooking_effect
+        }}</li>
       <li v-if="singleData && singleData.properties">Attack: {{ singleData.properties.attack }}</li>
       <li v-if="singleData && singleData.properties">Defense: {{ singleData.properties.defense }}</li>
 
