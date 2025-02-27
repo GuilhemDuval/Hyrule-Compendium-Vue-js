@@ -1,7 +1,7 @@
 <template>
   <div class="sort-parameters">
     <div>
-      <input type="text" :value="search" @input="searchRefresh" placeholder="Hylia Shield">
+      <input type="text" :value="search" @input="searchRefresh" placeholder="Hylian Shield">
       <button v-if="search" @click="cleanSearch">X</button>
     </div>
     <div>
