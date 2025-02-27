@@ -1,29 +1,58 @@
-# ProjetWebS4
+# 📜 Hyrule Compendium Vue.js  
 
-This template should help get you started developing with Vue 3 in Vite.
+🔗 **Accédez à l’application :** [hyrulecompendium.guilhemduval.fr](https://hyrulecompendium.guilhemduval.fr/)
 
-## Recommended IDE Setup
+![Hyrule Compendium Vue.js](https://raw.githubusercontent.com/GuilhemDuval/Hyrule-Compendium-Vue-js/refs/heads/main/communication/thumbnail_hyrulecompendium.jpg)  
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Customize configuration
+**Hyrule Compendium Vue.js** est une **application web interactive** permettant d’explorer les données du **compendium d’Hyrule** issues de *The Legend of Zelda: Breath of the Wild*. Développé en **Vue.js**, ce projet exploite l’API **Hyrule Compendium API** pour offrir une navigation fluide et intuitive à travers les créatures, équipements et objets du jeu.  
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Ce projet offrent aux utilisateurs **un système de recherche avancé, un tri dynamique et la gestion de favoris persistants**.  
 
-## Project Setup
+&nbsp; 
 
-```sh
+## ⚔️ Fonctionnalités  
+
+- **🔍 Recherche et tri avancés** – Filtrez rapidement les entrées du compendium par catégorie et par mots-clés.  
+- **❤️ Système de favoris** – Ajoutez des objets à vos favoris et retrouvez-les plus tard grâce au stockage local.  
+- **⚡ Déploiement rapide** – Architecture optimisée pour une **navigation fluide et instantanée**.  
+
+&nbsp; 
+
+## 🛠 Technologies utilisées  
+
+- **Vue.js** – Framework JavaScript pour le rendu dynamique et les composants interactifs.  
+- **Vue Router** – Gestion des routes pour la navigation entre les pages.  
+- **LocalStorage** – Sauvegarde des favoris côté utilisateur.  
+
+&nbsp;  
+## 🖥️ Installation et exécution  
+
+1️⃣ **Cloner le projet**  
+```bash
+git clone https://github.com/GuilhemDuval/Hyrule-Compendium-Vue-js.git
+cd Hyrule-Compendium-Vue-js
+```
+
+2️⃣ **Installer les dépendances**
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
+3️⃣ **Lancer le serveur local**
+```bash
+npm irun dev
 ```
+🔗 L'application web est aussi disponible à  l'adresse : [hyrulecompendium.guilhemduval.fr](https://hyrulecompendium.guilhemduval.fr/)
 
-### Compile and Minify for Production
+&nbsp;  
+## 📸 Captures d'écran
+&nbsp; 
+![Images de Hyrule Compendium Vue.js](https://raw.githubusercontent.com/GuilhemDuval/Hyrule-Compendium-Vue-js/refs/heads/main/communication/single_hyrulecompendium.png)
+&nbsp;
 
-```sh
-npm run build
-```
+&nbsp;  
+## 📚 Crédits
+- **API :** [Hyrule Compendium API](https://gadhagod.github.io/Hyrule-Compendium-API/#/)
+- **Jeu :** *The Legend of Zelda: Breath of the Wild* (© Nintendo)
+
