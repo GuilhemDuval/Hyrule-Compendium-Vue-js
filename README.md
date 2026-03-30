@@ -41,7 +41,7 @@ npm install
 
 3️⃣ **Lancer le serveur local**
 ```bash
-npm irun dev
+npm run dev
 ```
 🔗 L'application web est aussi disponible à  l'adresse : [hyrulecompendium.guilhemduval.fr](https://hyrulecompendium.guilhemduval.fr/)
 
